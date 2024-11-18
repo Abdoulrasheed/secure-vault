@@ -21,8 +21,8 @@ While traditional tools like TLS or mTLS provide robust encryption at the transp
 
 ## Who Should Use SecureVault?
 
-- **Banks, Healthcare, and Sensitive Apps**: If you're building applications that need to secure sensitive user data, SecureVault helps ensure the data remains encrypted even after it leaves the transport layer.
 - **Developers Looking to Enhance Security**: If you want to add additional layers of security on top of existing infrastructure like TLS, SecureVault offers seamless integration and an easy-to-use API.
+- **Sensitive Apps (e.g Banks, Healthcare)**: If you're building applications that need to secure sensitive user data, SecureVault helps ensure the data remains encrypted even after it leaves the transport layer.
 - **Teams with Strict Compliance Needs**: SecureVault provides cryptographic mechanisms and detailed logging to meet the high security and compliance requirements for regulated industries.
 
 ## Who Should Not Use SecureVault?
