@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecure_vault_doc=self.webpackChunksecure_vault_doc||[]).push([[690],{7142:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/securevault/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
