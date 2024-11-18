@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="100%" style="stop-color:#3e2e85;stop-opacity:2" />
+      <stop offset="100%" style="stop-color:#3e2e85;stop-opacity:2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Shield -->
+  <path 
+    d="M250 50 L450 150 L450 350 L250 450 L50 350 L50 150 Z" 
+    fill="url(#blueGradient)" 
+    opacity="1"
+  />
+  
+  <!-- Layered Security Blocks -->
+  <rect 
+    x="100"
+    y="180"
+    width="300"
+    height="120"
+    fill="#FFFFFF"
+    opacity="0.15"
+    rx="50"
+  />
+  
+  <!-- Lock Icon -->
+  <path 
+    d="M250 250 
+       Q270 250, 270 230 
+       L270 220 
+       Q270 200, 250 200 
+       Q230 200, 230 220 
+       L230 230 
+       Q230 250, 250 250 
+       Z" 
+    fill="#FFFFFF"
+    stroke="#FFFFFF"
+    strokeWidth="10"
+  />
+  
+  <!-- Interconnected Nodes -->
+  <circle cx="180" cy="250" r="20" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="320" cy="250" r="20" fill="#FFFFFF" opacity="0.6" />
+  <line x1="200" y1="250" x2="300" y2="250" stroke="#FFFFFF" strokeWidth="3" opacity="0.5" />
+</svg>
