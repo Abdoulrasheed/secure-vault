@@ -8,8 +8,8 @@ const config: Config = {
   title: 'SecureVault',
   tagline: 'Standardized, configurable multi-framework security middleware',
   favicon: 'img/favicon.ico',
-  url: 'https://securevault.abdull.dev',
-  baseUrl: '/securevault/',
+  url: 'https://secure-pipe.abdull.dev',
+  baseUrl: '/secure-pipe/',
   organizationName: 'abdoulrasheed',
   projectName: 'securevault',
 
