@@ -9,7 +9,7 @@ SecureVault is an open-source security middleware that provides a comprehensive 
 
 While traditional tools like TLS or mTLS provide robust encryption at the transport layer (load balancers, proxies, etc.), they do not protect data once it reaches the application process. SecureVault ensures that data remains encrypted at all stages, protecting sensitive information from internal threats and ensuring the security of applications in high-security environments like banking, healthcare, government, etc.
 
-![Picture Shwoing where and how SecureVault operates vs TLS and mTLS](img/mtls-tls-securevault.png)
+![Picture Shwoing where and how SecureVault operates vs TLS and mTLS](https://raw.githubusercontent.com/Abdoulrasheed/secure-vault/refs/heads/main/secure-vault-doc/static/img/mtls-tls-securevault.png)
 
 ## Key Features
 
@@ -40,27 +40,10 @@ While traditional tools like TLS or mTLS provide robust encryption at the transp
 
 ### Frontend Interceptors
 
-- [Axios](/docs/interceptors/axios.md)
-- [ApiSauce](/docs/interceptors/apisauce.md)
-- [Fetch API](/docs/interceptors/fetch.md)
-- [GraphQL Clients](/docs/interceptors/graphql.md)
-
-## Installation
-
-### Django (Python)
-```bash
-pip install django-securevault
-```
-
-### .NET Core
-```bash
-dotnet add package SecureVault.Core
-```
-
-### Node.js
-```bash
-npm install secure-vault-js
-```
+- [Axios Documentation](/interceptors/axios/README.md)
+- [ApiSauce Documentation](/interceptors/apisauce/README.md)
+- [Fetch API Documentation](/interceptors/fetch/README.md)
+- [GraphQL Clients Documentation](/interceptors/graphql/README.md)
 
 ## Frontend Configuration (Axios)
 
@@ -83,54 +66,14 @@ const securedAxios = SecureVault.create({
 
 ## Backend Configuration
 
+### Dotnet Core
+[Configure .NET Core](/securevault-dotnet/README.md)
+
+### NodeJS
+[Configure NodeJS](/securevault-js/README.md)
+
 ### Django
-
-```python
-# settings.py
-SECUREVAULT = {
-    'BOT_DETECTION': True,
-    'DEVICE_FINGERPRINT': {
-        'LOCK_TO_DEVICE': True
-    },
-    'CHALLENGE_RESPONSE': {
-        'KEY_ROTATION_INTERVAL': '1h'
-    }
-}
-```
-
-### .NET Core
-
-```csharp
-// appsettings.json
-{
-  "SecureVault": {
-    "BotDetection": true,
-    "DeviceFingerprint": {
-      "LockToDevice": true
-    },
-    "ChallengeResponse": {
-      "KeyRotationInterval": "1h"
-    }
-  }
-}
-```
-
-### Node.js
-
-```javascript
-// config.js
-module.exports = {
-  securevault: {
-    botDetection: true,
-    deviceFingerprint: {
-      lockToDevice: true
-    },
-    challengeResponse: {
-      keyRotationInterval: '1h'
-    }
-  }
-}
-```
+[Configure Django](/django-securevault/README.md)
 
 ## Security Features
 
@@ -144,18 +87,10 @@ module.exports = {
 - Optional device locking
 - Configurable device change limits
 
-### Cryptographic Challenge-Response
+### End to End API Application between clients and running processes
 - Public key encryption
 - Automatic key rotation
 - Request-level security
-
-## Additional Interceptor Integrations
-
-Explore detailed guides for other HTTP libraries:
-- [Axios Documentation](/docs/interceptors/axios.md)
-- [ApiSauce Documentation](/docs/interceptors/apisauce.md)
-- [Fetch API Documentation](/docs/interceptors/fetch.md)
-- [GraphQL Clients Documentation](/docs/interceptors/graphql.md)
 
 ## Contributing
 
