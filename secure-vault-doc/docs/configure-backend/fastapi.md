@@ -1,4 +1,8 @@
-# SecureVault: FastAPI Integration
+---
+sidebar_position: 4
+---
+
+# FastAPI Integration
 
 ## Installation
 ```bash

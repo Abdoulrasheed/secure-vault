@@ -1,4 +1,8 @@
-# SecureVault: Django Integration
+---
+sidebar_position: 2
+---
+
+# Django Integration
 
 ## Installation
 

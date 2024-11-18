@@ -1,4 +1,8 @@
-# SecureVault: Express.js Integration
+---
+sidebar_position: 3
+---
+
+# Express.js Integration
 
 ## Installation
 

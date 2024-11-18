@@ -1,4 +1,8 @@
-# SecureVault: Nest.js Integration
+---
+sidebar_position: 6
+---
+
+# Nest.js Integration
 
 ## Installation
 ```bash

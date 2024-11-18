@@ -1,4 +1,8 @@
-# SecureVault: Fetch API Integration
+---
+sidebar_position: 3
+---
+
+# Fetch API Integration
 
 ## Installation
 ```bash

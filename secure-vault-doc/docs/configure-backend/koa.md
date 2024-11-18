@@ -1,4 +1,8 @@
-# SecureVault: Koa Integration
+---
+sidebar_position: 5
+---
+
+# Koa Integration
 
 ## Installation
 ```bash

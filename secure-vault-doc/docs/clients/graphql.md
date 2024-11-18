@@ -1,4 +1,8 @@
-# SecureVault: GraphQL Clients Integration
+---
+sidebar_position: 4
+---
+
+# GraphQL Clients Integration
 
 ## Installation
 ```bash

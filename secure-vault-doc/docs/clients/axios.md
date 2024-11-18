@@ -1,4 +1,8 @@
-# SecureVault: Axios Interceptor
+---
+sidebar_position: 2
+---
+
+# Axios Interceptor
 
 ## Installation
 

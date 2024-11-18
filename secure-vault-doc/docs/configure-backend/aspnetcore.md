@@ -1,4 +1,8 @@
-# SecureVault: ASP.NET Core Integration
+---
+sidebar_position: 1
+---
+
+# .NET Core Integration
 
 ## Installation
 

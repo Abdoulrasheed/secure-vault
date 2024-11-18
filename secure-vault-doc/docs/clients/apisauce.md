@@ -1,4 +1,8 @@
-# SecureVault: ApiSauce Integration
+---
+sidebar_position: 1
+---
+
+# ApiSauce Integration
 
 ## Installation
 ```bash
