@@ -9,7 +9,7 @@ SecureVault is an open-source security middleware that provides a comprehensive 
 
 While traditional tools like TLS or mTLS provide robust encryption at the transport layer (load balancers, proxies, etc.), they do not protect data once it reaches the application process. SecureVault ensures that data remains encrypted at all stages, protecting sensitive information from internal threats and ensuring the security of applications in high-security environments like banking, healthcare, government, etc.
 
-![Picture Shwoing where and how SecureVault operates vs TLS and mTLS](https://raw.githubusercontent.com/Abdoulrasheed/secure-vault/refs/heads/main/secure-vault-doc/static/img/mtls-tls-securevault.png)
+![Picture Shwoing where and how SecureVault operates vs TLS and mTLS](secure-vault-doc/static/img/mtls-tls-securevault.png)
 
 ## Key Features
 
