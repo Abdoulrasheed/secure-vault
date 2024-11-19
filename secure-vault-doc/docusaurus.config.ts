@@ -8,10 +8,13 @@ const config: Config = {
   title: 'SecureVault',
   tagline: 'Standardized, configurable multi-framework security middleware',
   favicon: 'img/favicon.ico',
-  url: 'https://secure-pipe.abdull.dev',
-  baseUrl: '/secure-pipe/',
+  url: 'https://abdoulrasheed.github.io',
+  baseUrl: '/secure-vault-doc/build/',
   organizationName: 'abdoulrasheed',
-  projectName: 'securevault',
+  projectName: 'secure-vault',
+  deploymentBranch: 'gh-pages',
+  staticDirectories: ['static'],
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +31,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/abdoulrasheed/securevault/tree/main/docs/',
+           'https://github.com/abdoulrasheed/securevault/tree/main/secure-vault-doc/',
         },
         blog: {
           showReadingTime: true,
@@ -37,7 +40,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/abdoulrasheed/securevault/tree/main/',
+           'https://github.com/abdoulrasheed/securevault/tree/main/secure-vault-doc/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -112,7 +115,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/abdoulrasheed/securevault',
             },
           ],
         },
