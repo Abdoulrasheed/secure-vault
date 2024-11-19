@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunksecure_vault_doc=self.webpackChunksecure_vault_doc||[]).push([[6032],{5081:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/secure-vault-doc/build/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
+"use strict";(self.webpackChunksecure_vault_doc=self.webpackChunksecure_vault_doc||[]).push([[6032],{5081:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
