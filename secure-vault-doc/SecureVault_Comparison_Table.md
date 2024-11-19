@@ -1,13 +1,11 @@
-# **Comparison of SecureVault with Similar Projects/Technologies**
+**Comparison of SecureVault with Similar Projects/Technologies**  
+The table below compares SecureVault with similar projects and technologies, highlighting its strengths, limitations, and key differentiators based on its updated focus: End-to-End Encryption, Device Fingerprinting, and Bot Detection.
 
-The table below compares SecureVault with similar projects and technologies, highlighting its strengths, limitations, and key differentiators.
-
-|  Technology/Project |  Purpose |  Limitations |  Comparison with SecureVault |
+| Technology/Project | Purpose | Limitations | Comparison with SecureVault |
 | :---- | :---- | :---- | :---- |
-| TLS/SSL | Encrypts data in transit between client and server. | \- Stops encryption at Load Balancer or Proxy layer.\- No protection at application process level. | \- Complements TLS/SSL by adding application-level encryption.\- Adds bot detection and device identification. |
-| mTLS (Mutual TLS) | Adds client-side certificate authentication on top of TLS. | \- Complex certificate management.\- Encryption stops at Proxy or Load Balancer or Within the server (data is decrypted before it gets into the process) | \- Easier integration without certificate infrastructure.\- Extends encryption to the application process. |
-| FingerprintJS | Device fingerprinting for bot detection and fraud prevention. | \- Browser-focused; limited server-side support.\- No cryptographic challenge-response. | \- Cross-platform support (frontend and backend).\- Adds cryptographic challenge-response. |
-| Cloudflare Bot Management | Protects applications from automated attacks and bots. | \- Requires traffic to pass through Cloudflare’s network.\- Limited control for developers. | \- Self-hosted with full control.\- Adds device locking and cryptographic responses. |
-| OAuth2 with PKCE | Secure authentication for public clients using cryptographic secrets. | \- Limited to authentication flows.\- No device-specific security or bot detection. | \- Encrypts all requests, not just authentication flows.\- Includes bot detection and device fingerprinting. |
-| WebAuthn | Passwordless authentication using public-key cryptography. | \- Limited to authentication, not general request encryption.\- Encryption ends after initial authentication. | \- Extends encryption to all requests and responses.\- Adds bot detection and device-locking features. |
-
+| TLS/SSL | Encrypts data in transit between client and server. | \- Encryption stops at Load Balancer or Proxy.\- No device-specific security or bot detection. | \- Complements TLS/SSL by encrypting requests to the application process.\- Adds device fingerprinting and bot detection. |
+| mTLS (Mutual TLS) | Adds client-side certificate authentication on top of TLS. | \- Complex certificate management.\- Encryption stops at Proxy or Load Balancer.\- No device fingerprinting or bot detection. | \- Complements mTLS by extending encryption to the application process.\- Adds device fingerprinting and bot detection without certificates. |
+| FingerprintJS | Device fingerprinting for bot detection and fraud prevention. | \- Limited to browser environments.\- No encryption or server-side support. | \- Provides cross-platform device fingerprinting (frontend and backend).\- Combines fingerprinting with encryption and bot detection. |
+| Cloudflare Bot Management | Protects applications from automated attacks and bots. | \- Requires traffic to route through Cloudflare.\- Limited device-specific controls. \- Paid Service | \- Fully self-hosted with complete control over bot detection.\- Adds E2E encryption and device locking. |
+| OAuth2 with PKCE | Secure authentication for public clients using cryptographic secrets. | \- Limited to authentication flows.\- No encryption for general requests.\- No bot detection or device-specific security. | \- Encrypts all requests and responses, not just authentication flows.\- Includes bot detection and device fingerprinting. |
+| WebAuthn | Passwordless authentication using public-key cryptography. | \- Limited to authentication use cases.\- No E2E encryption for all requests.\- No bot detection or fingerprinting. | \- Extends encryption beyond authentication.\- Adds bot detection and device locking. |
